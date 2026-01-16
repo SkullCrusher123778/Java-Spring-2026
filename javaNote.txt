@@ -1,0 +1,17 @@
+/* Imani Hollie ##/##/2026
+   Lesson # Lab: Write a code to produce a similar output to the sample output.
+   
+   Sample Output:
+   ^^^
+*/
+
+/*
+import java.util.Scanner;  // Allows use of Scanner objects
+public class CLASS_NAME {  // Class name
+  public static void main(String[] args) {  // Main method (Program execution starts here)
+    Scanner input = new Scanner(System.in); // Create Scanner object
+    // Block Code
+    input.close();  // Close Scanner object
+  }
+}  // Ends the program
+*/
