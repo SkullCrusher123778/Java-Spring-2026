@@ -16,7 +16,3 @@
 - [Lesson 9](./lesson09/) - Objects and Classes
 - [Lesson 10](./lesson10/) - Object-Oriented Thinking
 - [Lesson 11](./lesson11/) - Open Topic
-
-📹 Filming videos about Computer Programming on [YouTube](https://www.youtube.com/@8BitSoftware)<br/>
-🦋 Posting about Computer Programming on [BlueSky](https://bsky.app/profile/8bitsian.bsky.social)<br/>
-🫱🏻‍🫲🏽 I am always open to collaboration on new projects! Constructive feedback on my code is greatly appreciated<br/>
