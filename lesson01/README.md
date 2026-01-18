@@ -7,4 +7,4 @@
 📂 Files will be listed below:
 - `J101_1.java` | 5 Minute Interview
 
-📹 Watch the [5‑minute interview](https://www.youtube.com/@8BitSoftware)<br/>
+📹 Watch the [5‑minute interview](https://www.youtube.com/watch?v=CfNhQihcNpw)<br/>
