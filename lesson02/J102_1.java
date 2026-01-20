@@ -10,36 +10,40 @@
    Last 4-digit phone number: ****
 */
 
-import java.util.Scanner;  // Allows use of Scanner objects
 
-public class J102_1 {  // Class name
-  public static void main(String[] args) {  // Main method
+import java.util.Scanner;                                // Import Scanner for keyboard input
 
-    Scanner input = new Scanner(System.in);  // Create Scanner object
+public class J102_1 {                                    // J102_1 class
+  public static void main(String[] args) {               // Program entry point (main method)
+    Scanner input = new Scanner(System.in);              // Create Scanner object 'input'
 
-    // Declare variables
-    String name;        // Stores user's full name
-    short phone;        // Stores favorite number
+    String name, phone;                                  // Variables for user's name and 4-digit phone
+    int i;                                               // Loop index used to validate each character
 
-    // Get user's name
-    System.out.print("Name? ");  // Prompt asking user's name
-    name = input.nextLine();  // Reads a full line of text
+    System.out.print("Name? ");                          // Prompt user for full name
+    name = input.nextLine();                             // Read the entire line (allows spaces)
 
-    // Get user's last 4-digits of phone number
-    System.out.print("Last 4-digit phone number? ");  // Prompt asking for the user's phone number
-    phone = input.nextShort();  // Reads a short (int) value
+    while (true) {                                       // Keep asking until valid input is provided
+      System.out.print("Last 4-digit phone number? ");   // Prompt user for phone number
+      phone = input.nextLine().trim();                   // Read input and trim leading/trailing spaces
 
-    // Validate phone number is 4 digits
-    while (phone < 0 || phone > 9999) {            // While loop that ensures the number is between 0000 and 9999
-      System.out.println("ERROR: Invalid Input");  // Error message for invalid input
-      System.out.print("Enter 4 Digits: ");        // Prompt asking user to try again
-      phone = input.nextShort();                   // Reads new input
+      if (phone.length() != 4) {                         // Must be exactly 4 characters
+        System.out.println("ERROR: Invalid Input.");     // Inform user of invalid input
+        continue;                                        // Ask again
+      }
+
+      for (i = 0; i < 4; i++) {                          // Validate each character
+        char c = phone.charAt(i);                        // Get the i-th character
+        if (c < '0' || c > '9') break;                   // Not a digit? stop and mark invalid
+      }
+
+      if (i == 4) break;                                 // All 4 characters were digits → exit loop
+      System.out.println("ERROR: Invalid Input.");       // Otherwise, tell user and repeat
     }
 
-    // Output user's name and favorite number
-    System.out.println("Your name: " + name);  // Prints user's name to the console
-    System.out.println("Last 4-digit phone number: " + phone);  // Print's user's phone to the console
+    System.out.println("Your name: " + name);                   // Print the user's name
+    System.out.println("Last 4-digit phone number: " + phone);  // Print the validated phone digits
 
-    input.close();  // Close scanner
+    input.close();                                       // Close the scanner to release resources
   }
 }
