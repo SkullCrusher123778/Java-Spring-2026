@@ -6,7 +6,7 @@
    - printChar to print the characters stored in the array
 
    The main() methods should be kept as simple as possible
-*
+*/
 
 import java.util.Random;
 
@@ -54,3 +54,4 @@ public class J107_1 {
       printChar(); // Print them 5 per line
    }
 }
+
