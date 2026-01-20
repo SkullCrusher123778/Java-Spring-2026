@@ -8,7 +8,7 @@
 
 import java.util.Scanner;
 
-public class J103_11 { // if statement
+public class J103_1_1 { // if statement
    public static void main(String[] args) {
       // Create a Scanner object
       Scanner input = new Scanner(System.in);
@@ -28,3 +28,4 @@ public class J103_11 { // if statement
 
    }
 }
+
