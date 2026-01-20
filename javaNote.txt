@@ -1,3 +1,12 @@
+*****************************************************
+Note that including entire executable code in your javaNote can be considered cheating.
+Therefore, it is recommended to only include key algorithms, concepts, syntax, and best practices.
+*****************************************************
+IDE Shortcuts 
+Ctrl + /    : // 	for single line comments
+Ctrl + Shift: /.   ./ 	for block comments
+Ctrl + Shift +F10 : Run
+*****************************************************
 /* Imani Hollie ##/##/2026
    Lesson # Lab: Write a code to produce a similar output to the sample output.
    
