@@ -2,25 +2,80 @@
 Note that including entire executable code in your javaNote can be considered cheating.
 Therefore, it is recommended to only include key algorithms, concepts, syntax, and best practices.
 *****************************************************
-IDE Shortcuts 
-Ctrl + /    : // 	for single line comments
-Ctrl + Shift: /.   ./ 	for block comments
-Ctrl + Shift +F10 : Run
+IDE Shortcuts
+Ctrl + /             : // Single-line Comments
+Ctrl + Shift + /     : /* Block Comments */
+Ctrl + Shift +F10    : Run Program
 *****************************************************
-/* Imani Hollie ##/##/2026
-   Lesson # Lab: Write a code to produce a similar output to the sample output.
-   
+/*
+   Imani Hollie ##/##/2026
+   Lesson # Lab: Directions
    Sample Output:
    ^^^
 */
-
 /*
-import java.util.Scanner;  // Allows use of Scanner objects
-public class CLASS_NAME {  // Class name
-  public static void main(String[] args) {  // Main method (Program execution starts here)
-    Scanner input = new Scanner(System.in); // Create Scanner object
-    // Block Code
-    input.close();  // Close Scanner object
-  }
-}  // Ends the program
+import java.util.Scanner;   // Allows use of Scanner objects
+public class CLASS_NAME {   // Class name
+    public static void main(String[] args) {   // Program starts here
+        Scanner input = new Scanner(System.in); // Create Scanner object
+        // Program logic goes here
+        input.close();          // Close Scanner object
+    }
+}                               // End of program
 */
+*****************************************************
+- Primitive Data Types
+   - byte    = -128 to 127 (8-bit, best for arrays)
+   - short   = -32,768 to 32,767 (16-bit)
+   - int     = -2^31 to 2^31 -1 (32-bit, most common)
+   - long    = -2^63 to 2^63 - 1 (64-bit, end value w/L)
+   - float   = Decimal single precision (end value w/f)
+   - double  = Decimal double precision
+   - char    = Single character ('A', 'a', '1') [16-Bit Unicode]
+   - boolean = true or false
+- Non-Primitive (Reference) Data Types
+   - String  = Stores a sequence of characters
+   - Arrays  = Stores multiple values of the same type
+*****************************************************
+Common Java Libraries
+- java.lang (automatically imported)
+   - String, Math, Object, System
+- java.util
+   - Random, ArrayList, HashMap, Scanner, Date, Collections
+- java.io
+   - File, FileReader, BufferedReader
+- java.nio
+   - Path, Paths
+- java.net
+   - URL, Socket
+- java.time
+   - LocalDate, LocalTime, LocalDateTime
+*****************************************************
+Taking User Input (Using the Scanner)
+   import java.util.Scanner;               // Library allows use of Scanner objects
+   Scanner input = new Scanner(System.in); // Create Scanner object 'input'
+   System.out.print("Get user input: ");   // Prompt for user input
+   dataType variable = input.nextdataType();         // Read user input into input stream
+   input.close();                          // Close Scanner object
+*****************************************************
+Output Statements (Various print Statements)
+   System.out.print();    // prints w/out newline
+   System.out.println();  // prints w/newline
+   System.out.printf();   // printw formatted output
+*****************************************************
+Conditional Statements (If and Switch Statements)
+- If Statement
+   - if ()
+   - if () else ()
+   - if () else if () else ()
+- Switch Statement
+   - switch ()
+*****************************************************
+Random Method (Generating Numbers or Characters)
+   import java.util.Random;                        // Library allows use of Random objects
+   Random rand = new Random();                     // Create Random object 'rand'
+   - int n0to9 = rand.nextInt(10);                   // 0-9 (Digits)
+   - boolean coin = rand.nextBoolean();              // true/false (Boolean)
+   - char lower = (char) ('a' + rand.nextInt(26));   // a-z (Lowercase Letters)
+   - char upper = (char) ('A' + rand.nextInt(26));   // A-Z (Uppcase Letters)
+   
